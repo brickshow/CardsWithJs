@@ -1,0 +1,90 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+      <div class="pokemon-page">
+        <h1 id="pokemon-page-name"></h1>
+        <div class="pokemon-main-content">
+          <div class="pokemon-page-image"></div>
+          <div class="pokemon-page-details">
+            <h3>Pokédex data</h3>
+            <table>
+              <tr>
+                <td>National №</td>
+                <td class="pokemon-page-id"></td>
+              </tr>
+              <tr>
+                <td>Type</td>
+                <td class="pokemon-type"></td>
+              </tr>
+              <tr>
+                <td>Species</td>
+                <td class="pokemon-page-species"></td>
+              </tr>
+              <tr>
+                <td>Height</td>
+                <td class="pokemon-page-height"></td>
+              </tr>
+              <tr>
+                <td>Weight</td>
+                <td class="pokemon-page-weight"></td>
+              </tr>
+              <tr>
+                <td>Abilities</td>
+                <td class="pokemon-page-abilities"></td>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <p class="pokemon-page-description"></p>
+          </div>
+          <div class="pokemon-page-stats">
+            <h3>Base stats</h3>
+            <table>
+              <tr>
+                <td style="width: 15%;">HP</td>
+                <td style="width: 15%;" class="hp-val"></td>
+                <td class="bar hp"><div></div></td>
+              </tr>
+              <tr>
+                <td>Attack</td>
+                <td class="attack-val"></td>
+                <td class="bar attack"><div></div></td>
+              </tr>
+              <tr>
+                <td>Defense</td>
+                <td class="defense-val"></td>
+                <td class="bar defense"><div></div></td>
+              </tr>
+              <tr>
+                <td>Sp. Atk</td>
+                <td class="sp-attack-val"></td>
+                <td class="bar sp-attack"><div></div></td>
+              </tr>
+              <tr>
+                <td>Sp. Def</td>
+                <td class="sp-defense-val"></td>
+                <td class="bar sp-defense"><div></div></td>
+              </tr>
+              <tr>
+                <td>Speed</td>
+                <td class="speed-val"></td>
+                <td class="bar speed"><div></div></td>
+              </tr>
+              <tr>
+                <td>Total</td>
+                <td colspan="2" class="total"></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
